@@ -10,5 +10,8 @@ import ToastMessages from '@/components/ToastMessages.vue';
 
 export default {
   components: { ToastMessages },
+  mounted() {
+    this.$router.push('/cart');
+  },
 };
 </script>
